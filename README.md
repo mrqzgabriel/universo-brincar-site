@@ -123,3 +123,13 @@ diversificada.
 
 Nada de preço, número de vagas ou promessa de formação da equipe foi inventado. Se a
 cliente quiser incluir esses dados, é só acrescentar.
+
+## Fotos usadas
+
+As imagens são de uso livre, obtidas pelo Openverse:
+
+- `site/img/hero.jpg`, "Bath toys", licença PDM (domínio público ou equivalente, sem exigência de crédito).
+- `site/img/blocos.jpg`, blocos de montar coloridos, licença CC0, via Openverse.
+
+Para trocar por fotos do próprio negócio, basta substituir os arquivos dentro de
+`site/img/` mantendo os mesmos nomes. O formato usado no topo é 4 por 3.
