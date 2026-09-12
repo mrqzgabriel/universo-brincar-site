@@ -1,0 +1,14 @@
+{
+  "name": "Universo Brincar, Hotel Infantil",
+  "short_name": "Universo Brincar",
+  "description": "Hotel infantil no Jabaquara, São Paulo: berçário, integral de 6 meses a 3 anos, contraturno escolar e festas.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFF9F2",
+  "theme_color": "#FF6B5B",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
