@@ -376,6 +376,9 @@ strong { color: var(--tinta); font-weight: 700; }
 /* ------------------------------------------------------------- animação -- */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
 .reveal.is-in { opacity: 1; transform: none; }
+/* usado quando a aba está em segundo plano, onde o navegador congela as
+   transições e o conteúdo ficaria invisível */
+.sem-animacao .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
 
 /* -------------------------------------------------- páginas internas -- */
 .page-hero { background: var(--creme); padding: clamp(44px, 6vw, 74px) 0 clamp(34px, 4vw, 54px); }

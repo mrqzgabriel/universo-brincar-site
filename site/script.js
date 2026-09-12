@@ -100,6 +100,7 @@
   var semMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   function revelaTudo() {
+    document.documentElement.classList.add('sem-animacao');
     alvos.forEach(function (el) { el.classList.add('is-in'); });
   }
 
@@ -146,7 +147,7 @@
       var destino = null;
       try { destino = document.querySelector(location.hash); } catch (e) { destino = null; }
       if (destino && window.pageYOffset < 10) {
-        destino.scrollIntoView({ behavior: 'auto', block: 'start' });
+        destino.scrollIntoView({ behavior: 'instant', block: 'start' });
       }
     });
   }
